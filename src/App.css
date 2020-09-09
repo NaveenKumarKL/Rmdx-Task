@@ -1,0 +1,304 @@
+*{
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+
+/*navbar  */
+
+.header{
+  margin-top: -25px;
+}
+.nav {
+  background: #1e2329;
+}
+
+.navbar{
+  background: #0d2481;
+}
+
+.navbandclass{
+  margin-left: -18px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  background: #1e2329;
+}
+
+.brandicon{
+  padding-right: 10px;
+  border-right: 2px solid #828486;
+}
+
+/* bradname */
+.brandnameheading h5{
+  font-weight: 400;
+  font-size: 98px;
+  letter-spacing: 2px;
+}
+.brandnamesubheading{
+  margin-top: -15px;
+}
+.brandnamesubheading span{
+  font-size: 11px;
+  color:#828486;
+
+}
+
+.navlist li a{
+  color: white;
+}
+
+.navlist li a:hover{
+  color: grey;
+  transition: 1s ;
+}
+
+.naviconcolormobile{
+  color: white;
+}
+
+.nav_mobileNo{
+color: white;
+font-size: 15px;
+padding: 5px;
+margin-right: 25px;margin-left: 5px
+}
+
+.naviconcolor {
+  color: white;
+}
+
+.naviconcolor:hover {
+  color: grey;
+  transition: 1s
+}
+
+/* banner */
+.banneroverall{
+  background: #dcdee1;
+}
+
+.bannerlist{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.bannercard{
+  border-top: 2px solid blue;
+  border-radius: 2px;
+ 
+}
+.cardbodyptag{
+  margin-bottom: 50px;
+}
+
+.bannerbutton {
+  padding: 10px 50px;
+  background: #0d2481;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  text-align: left;
+}
+.bannerbutton:hover{
+  padding: 10px 50px;
+  background: grey;
+  text-decoration: none;
+  color: blue;
+  border-radius: 5px;
+  text-align: left;
+  transition: 2s;
+}
+
+
+
+/* service */
+.serviceoverll{
+  height: 100%;
+}
+.servicesub{
+  color: #7785c0;
+  font-size: 25px;
+}
+.serviceminus{
+  color: #7785c0;
+}
+
+.servicehead{
+  font-weight: 400;
+}
+
+.serviceleft{
+
+  background: #1e2329;
+ 
+}
+
+.serviceright{
+
+  background: #0d2481;
+  color: white;
+  padding: 50px;
+}
+
+.servicelistincard{
+  border-top: 4px solid white;
+  border-radius: 2px;
+
+}
+
+.servicelist{
+  margin-top: 15px;
+}
+
+.servicelist li{
+  padding: 15px;
+  color: #7785c0;
+}
+.servicesublist{
+  color: rgb(83, 136, 248);
+}
+.servicebutton{
+  background: #0c2175;
+}
+.servicebutton a{
+  color: #7785c0;
+
+}
+.servicebutton:hover{
+  color: #000;
+  background: white;
+  transition: 2s;
+}
+.servicesm:hover{
+  color: black;
+}
+
+.servicebutton a:hover{ 
+  color: grey;
+  text-decoration: none;
+}
+
+/* workoverall */
+
+.workoverall{
+  margin-top: 20px;
+  height: 100%;
+}
+
+.worksleft{
+  margin:100px auto;
+}
+
+.workbluediv{
+  background: #0d2481;
+  height: 80vh;
+  margin: 50px 0px 50px 15px;
+}
+.workcenterdiv{
+  background: #f7dbec;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+.buttonworkoutside{
+  padding-top: 35px;
+}
+.workbutton{
+  padding: 15px 40px;
+  background: #0c2175;
+  color: white;
+  border-radius: 5px;
+}
+.workbutton:hover{
+  padding: 15px 40px;
+  background: #1e2329;
+  color: white;
+  border-radius: 5px;
+  transition: 2s;
+  text-decoration: none;
+}
+
+.allservicecard{
+  height: 100%;
+  margin-top:30px;
+}
+
+/* published */
+
+.published{
+  height: 100%;
+  margin-top: 50px;
+}
+
+/* article */
+
+.articleleft{
+  padding-right: 5px;
+  border-right: 2px solid grey;
+  color: grey;
+}
+
+.articlehuman{
+  color: grey;
+}
+.articleblueblock{
+  width: 100%;
+  height: 300px;
+  background: #0d2481;
+  margin: 40px auto;
+}
+
+.articlebluerightblock{ 
+  background: #0d2481;
+}
+
+.articlebutton{
+  padding: 15px 40px;
+  background: #0c2175;
+  color: white;
+  border-radius: 5px;
+}
+
+.articlebutton:hover{
+  padding: 15px 40px;
+  background: #1e2329;
+  color: white;
+  border-radius: 5px;
+  transition: 2s;
+  text-decoration: none;
+}
+
+/* contact */
+
+.contact{
+  height: 100%;
+  background: #0d2481;
+  margin-top: 50px;
+}
+.reachoutpcontent{
+  color: #7785c0;
+}
+
+.phoneicon{
+  color: white;
+}
+
+/* connectall */
+
+.connectbrand{
+  background: #1e2329;
+  
+}
+
+.connectlist li{
+  list-style-type: none;  
+ 
+}
+
+.footerall{
+  border-top: 2px solid grey;
+}
